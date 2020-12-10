@@ -53,7 +53,7 @@ public class HouseBuilderB {
     }
 
     public House buildWithEmptyCheck() {
-        if(streetName.equalsIgnoreCase("")) {
+        if (streetName.equalsIgnoreCase("")) {
             throw new RuntimeException("Streetname cannot be empty");
         }
         if (houseNumberAddition.equalsIgnoreCase("")) {
